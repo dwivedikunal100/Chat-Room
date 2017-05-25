@@ -1,6 +1,6 @@
 # chat-application
-A simple chat room
-To run this application..
+A simple chat room ,
+ To run this application...
 1. Install node.js from https://nodejs.org/
 2. Clone repository by using git or download compressed file
 3. Open Command Prompt or git bash and locate it to the chat-application folder
