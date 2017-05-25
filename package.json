@@ -1,0 +1,23 @@
+{
+  "name": "Chat Application",
+  "version": "1.0.0",
+  "description": "A simple chat room",
+  "main": "sio-server.js",
+  "scripts": {
+    "start": "open  node ws.js"
+  },
+  "keywords": [
+    "Simple",
+    "Sample"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  }.
+  "author": "Kunal Dwivedi ",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ws": "^3.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="card card-outline-success">
+        <h1 class="card-header text-center text-success">Websocket</h1>
+      </div>
+
+      <div style="margin-top:50px;">
+        <form action="javascript:void(0)" class="form">
+          <div class="form-group ">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-control" placeholder="Enter your name" />
+          </div>
+          <div class="form-group ">
+            <label class="form-text " >Message:</label>
+            <input type="text" id="message" class="form-control" required autofocus placeholder="Enter a message to send" />
+          </div>
+          <div class="form-group">
+            <input type="submit" name="Send" value="Send" class="btn btn-primary btn-block">
+          </div>
+        </form>
+
+      </div>
+      <div class="card card-outline-warning" style="margin-top:15px;">
+        <div class="card-header card-warning" ></div>
+        <div class="card-block">
+          <div class="messages "></div></div>
+          <div class="card-footer card-warning"></div>
+        </div>
+
+        <script src="ws-client.js"></script>
+      </div>
+    </body>
+
+    </html>
