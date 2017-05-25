@@ -44,9 +44,9 @@ function printMessage(message) {
 var name=document.getElementById('name');
 
 if(name.value==message.substring(0,name.value.length))
-p.className+="text-success  card card-outline-danger ";
+p.className+="text-white  card card-danger ";
 else
-p.className+="text-danger card card-outline-success ";
+p.className+="text-white card card-success ";
 
 
     document.querySelector('div.messages').appendChild(p);
