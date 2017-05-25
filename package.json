@@ -1,5 +1,5 @@
 {
-  "name": "Chat Application",
+  "name": "Chat-Application",
   "version": "1.0.0",
   "description": "A simple chat room",
   "main": "sio-server.js",
