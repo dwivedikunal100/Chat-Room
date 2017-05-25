@@ -4,7 +4,7 @@
   "description": "A simple chat room",
   "main": "sio-server.js",
   "scripts": {
-    "start": "open  node ws.js"
+    "start": "  node ws.js"
   },
   "keywords": [
     "Simple",
