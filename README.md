@@ -1,5 +1,5 @@
 # Chat-Room
-Creates a secret virtual chat room.
+Creates a secret virtual chat room which helps you talk to several people simultaneously.
 
 To run this application...
 1. Install node.js from https://nodejs.org/
