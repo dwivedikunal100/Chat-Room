@@ -8,3 +8,4 @@ To run this application...
 4. Run npm install  //this will download all required node modules for running the app
 5. run node ws //to start the server
 6. Open index.html page in any browser to get connected to the chat room
+// Testing failures
